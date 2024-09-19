@@ -2,15 +2,12 @@
 manufacturer:
   - "Motorolla"
   - "Siemens"
-  - "Nokia"
 
 device_roles:
   - name: "Firewall"
     colour: "FF0000"
   - name: "Switch"
     colour: "00FF00"
-  - name: "Router"
-    colour: "0000FF"
 
 device_types:
   - model: "ISR4451-X"
@@ -19,10 +16,6 @@ device_types:
     full_depth: true
   - model: "EX4300"
     manufacturer: "Siemens"
-    height: 1
-    full_depth: true
-  - model: "7050QX-32S"
-    manufacturer: "Nokia"
     height: 1
     full_depth: true
 
@@ -50,7 +43,7 @@ devices:
         rear_position: 1
 
   - name: "Switch01"
-    site: "Chicago"
+    site: "Sydney"
     type: "EX4300"
     role: "Switch"
     rack: "AUSYD01-RK-01"
@@ -69,26 +62,4 @@ devices:
       - name: "FrontPort2"
         type: "LC"
         rear_port: "RearPort2"
-        rear_position: 1
-
-  - name: "Router01"
-    site: "London"
-    type: "7050QX-32S"
-    role: "Router"
-    rack: "AUSYD01-RK-01"
-    face: "front"
-    position: 1
-    interfaces:
-      - name: "Ethernet3"
-        type: "1000BASE-T"
-      - name: "Ethernet4"
-        type: "1000BASE-T"
-    rear_ports:
-      name: "RearPort3"
-      type: "LC"
-      positions: 1
-    front_ports:
-      - name: "FrontPort3"
-        type: "LC"
-        rear_port: "RearPort3"
         rear_position: 1
