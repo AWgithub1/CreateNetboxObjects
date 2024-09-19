@@ -1,0 +1,19 @@
+# vars/organization_vars.yml
+sites:
+  - name: "Main Office"
+    slug: "main-office"
+  - name: "Data Center"
+    slug: "data-center"
+  - name: "Branch Office"
+    slug: "branch-office"
+
+racks:
+  - name: "Rack1"
+    site: "Main Office"
+    u_height: 42
+  - name: "Rack2"
+    site: "Main Office"
+    u_height: 42
+  - name: "Rack3"
+    site: "Data Center"
+    u_height: 42
