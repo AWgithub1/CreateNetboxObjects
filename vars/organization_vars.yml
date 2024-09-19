@@ -1,19 +1,19 @@
 # vars/organization_vars.yml
 sites:
-  - name: "Main Office"
+  - name: "Amsterdam"
     slug: "main-office"
-  - name: "Data Center"
+  - name: "Chicago"
     slug: "data-center"
-  - name: "Branch Office"
+  - name: "London"
     slug: "branch-office"
 
 racks:
   - name: "Rack1"
-    site: "Main Office"
+    site: "Amsterdam"
     u_height: 42
   - name: "Rack2"
-    site: "Main Office"
+    site: "Chicago"
     u_height: 42
   - name: "Rack3"
-    site: "Data Center"
+    site: "London"
     u_height: 42
