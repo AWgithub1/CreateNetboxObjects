@@ -15,7 +15,7 @@ device_types:
     height: 1
     full_depth: true
   - model: "EX4300"
-    manufacturer: "Siemens"
+    manufacturer: "Nokia"
     height: 1
     full_depth: true
 
