@@ -34,11 +34,11 @@ devices:
         type: "1000BASE-T"
     rear_ports:
       name: "RearPort1"
-      type: "LC"
+      type: "110-punch"
       positions: 1
     front_ports:
       - name: "FrontPort1"
-        type: "LC"
+        type: "110-punch"
         rear_port: "RearPort1"
         rear_position: 1
 
@@ -56,10 +56,10 @@ devices:
         type: "1000BASE-T"
     rear_ports:
       name: "RearPort2"
-      type: "LC"
+      type: "110-punch"
       positions: 1
     front_ports:
       - name: "FrontPort2"
-        type: "LC"
+        type: "110-punch"
         rear_port: "RearPort2"
         rear_position: 1
