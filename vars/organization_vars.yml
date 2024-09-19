@@ -8,12 +8,12 @@ sites:
     slug: "branch-office"
 
 racks:
-  - name: "Rack1"
+  - name: "NLAMS01-RK-01"
     site: "Amsterdam"
-    u_height: 42
-  - name: "Rack2"
+    u_height: "42U"
+  - name: "AUSYD01-RK-01"
     site: "Chicago"
-    u_height: 42
-  - name: "Rack3"
+    u_height: "42U"
+  - name: "AUSYD01-RK-01"
     site: "London"
-    u_height: 42
+    u_height: "42U"
