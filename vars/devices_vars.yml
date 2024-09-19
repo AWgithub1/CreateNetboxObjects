@@ -1,8 +1,8 @@
 # vars/devices_vars.yml
 manufacturer:
-  - "Cisco"
-  - "Juniper"
-  - "Arista"
+  - "Motorolla"
+  - "Siemens"
+  - "Nokia"
 
 device_roles:
   - name: "Firewall"
@@ -14,21 +14,21 @@ device_roles:
 
 device_types:
   - model: "ISR4451-X"
-    manufacturer: "Cisco"
+    manufacturer: "Motorolla"
     height: 1
     full_depth: true
   - model: "EX4300"
-    manufacturer: "Juniper"
+    manufacturer: "Siemens"
     height: 1
     full_depth: true
   - model: "7050QX-32S"
-    manufacturer: "Arista"
+    manufacturer: "Nokia"
     height: 1
     full_depth: true
 
 devices:
   - name: "Firewall01"
-    site: "Main Office"
+    site: "Amsterdam"
     type: "ISR4451-X"
     role: "Firewall"
     rack: "Rack1"
@@ -50,7 +50,7 @@ devices:
         rear_position: 1
 
   - name: "Switch01"
-    site: "Main Office"
+    site: "Chicago"
     type: "EX4300"
     role: "Switch"
     rack: "Rack2"
@@ -72,7 +72,7 @@ devices:
         rear_position: 1
 
   - name: "Router01"
-    site: "Data Center"
+    site: "London"
     type: "7050QX-32S"
     role: "Router"
     rack: "Rack3"
