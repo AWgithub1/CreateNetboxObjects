@@ -31,7 +31,7 @@ devices:
     site: "Amsterdam"
     type: "ISR4451-X"
     role: "Firewall"
-    rack: "Rack1"
+    rack: "NLAMS01-RK-01"
     face: "front"
     position: 1
     interfaces:
@@ -53,7 +53,7 @@ devices:
     site: "Chicago"
     type: "EX4300"
     role: "Switch"
-    rack: "Rack2"
+    rack: "AUSYD01-RK-01"
     face: "front"
     position: 1
     interfaces:
@@ -75,7 +75,7 @@ devices:
     site: "London"
     type: "7050QX-32S"
     role: "Router"
-    rack: "Rack3"
+    rack: "AUSYD01-RK-01"
     face: "front"
     position: 1
     interfaces:
