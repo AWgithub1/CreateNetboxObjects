@@ -94,3 +94,5 @@
         state: present
       loop: "{{ devices | subelements('front_ports', 'skip_missing=True') }}"
       tags: front
+
+      
