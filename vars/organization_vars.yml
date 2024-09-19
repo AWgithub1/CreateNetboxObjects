@@ -1,7 +1,7 @@
 # vars/organization_vars.yml
 sites:
   - name: "Amsterdam"
-    slug: "main-office"
+    slug: "main-office-1"
   - name: "Sydney"
     slug: "data-center"
 
