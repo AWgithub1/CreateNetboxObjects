@@ -2,18 +2,13 @@
 sites:
   - name: "Amsterdam"
     slug: "main-office"
-  - name: "Chicago"
+  - name: "Sydney"
     slug: "data-center"
-  - name: "London"
-    slug: "branch-office"
 
 racks:
   - name: "NLAMS01-RK-01"
     site: "Amsterdam"
     u_height: "42U"
   - name: "AUSYD01-RK-01"
-    site: "Chicago"
-    u_height: "42U"
-  - name: "AUSYD01-RK-01"
-    site: "London"
+    site: "Sydney"
     u_height: "42U"
