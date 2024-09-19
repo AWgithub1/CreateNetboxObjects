@@ -1,7 +1,7 @@
 # vars/devices_vars.yml
 manufacturer:
   - "Motorolla"
-  - "Siemens"
+  - "Nokia"
 
 device_roles:
   - name: "Firewall"
