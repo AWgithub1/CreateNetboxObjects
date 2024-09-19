@@ -1,0 +1,94 @@
+# vars/devices_vars.yml
+manufacturer:
+  - "Cisco"
+  - "Juniper"
+  - "Arista"
+
+device_roles:
+  - name: "Firewall"
+    colour: "FF0000"
+  - name: "Switch"
+    colour: "00FF00"
+  - name: "Router"
+    colour: "0000FF"
+
+device_types:
+  - model: "ISR4451-X"
+    manufacturer: "Cisco"
+    height: 1
+    full_depth: true
+  - model: "EX4300"
+    manufacturer: "Juniper"
+    height: 1
+    full_depth: true
+  - model: "7050QX-32S"
+    manufacturer: "Arista"
+    height: 1
+    full_depth: true
+
+devices:
+  - name: "Firewall01"
+    site: "Main Office"
+    type: "ISR4451-X"
+    role: "Firewall"
+    rack: "Rack1"
+    face: "front"
+    position: 1
+    interfaces:
+      - name: "GigabitEthernet0/0"
+        type: "1000BASE-T"
+      - name: "GigabitEthernet0/1"
+        type: "1000BASE-T"
+    rear_ports:
+      name: "RearPort1"
+      type: "LC"
+      positions: 1
+    front_ports:
+      - name: "FrontPort1"
+        type: "LC"
+        rear_port: "RearPort1"
+        rear_position: 1
+
+  - name: "Switch01"
+    site: "Main Office"
+    type: "EX4300"
+    role: "Switch"
+    rack: "Rack2"
+    face: "front"
+    position: 1
+    interfaces:
+      - name: "Ethernet1"
+        type: "1000BASE-T"
+      - name: "Ethernet2"
+        type: "1000BASE-T"
+    rear_ports:
+      name: "RearPort2"
+      type: "LC"
+      positions: 1
+    front_ports:
+      - name: "FrontPort2"
+        type: "LC"
+        rear_port: "RearPort2"
+        rear_position: 1
+
+  - name: "Router01"
+    site: "Data Center"
+    type: "7050QX-32S"
+    role: "Router"
+    rack: "Rack3"
+    face: "front"
+    position: 1
+    interfaces:
+      - name: "Ethernet3"
+        type: "1000BASE-T"
+      - name: "Ethernet4"
+        type: "1000BASE-T"
+    rear_ports:
+      name: "RearPort3"
+      type: "LC"
+      positions: 1
+    front_ports:
+      - name: "FrontPort3"
+        type: "LC"
+        rear_port: "RearPort3"
+        rear_position: 1
